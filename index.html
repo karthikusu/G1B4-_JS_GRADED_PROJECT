@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Login Page -->
+     <div id="login-page">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Login</button>
+            <p id="error-message" class="error"></p>
+        </form>
+    </div>
+
+    <!-- Resume Page -->
+    <div id="resume-page" style="display: none;">
+        <h2>Applicant Details</h2>
+        <input type="text" id="job-filter" placeholder="Search job title...">
+        <button id="filter-button">Filter</button>
+        <div id="resume-details">
+            <h3 id="applicant-name"></h3>
+            <p id="applicant-job"></p>
+            <p id="applicant-email"></p>
+            <p id="applicant-phone"></p>
+        </div>
+        <button id="prev-button">Previous</button>
+        <button id="next-button">Next</button>
+        <p id="no-applications" class="error"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
