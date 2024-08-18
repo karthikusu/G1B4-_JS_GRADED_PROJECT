@@ -1,0 +1,20 @@
+[
+    {
+        "name": "John Doe",
+        "job": "Frontend Developer",
+        "email": "john.doe@example.com",
+        "phone": "555-1234"
+    },
+    {
+        "name": "Jane Smith",
+        "job": "Backend Developer",
+        "email": "jane.smith@example.com",
+        "phone": "555-5678"
+    },
+    {
+        "name": "Alice Johnson",
+        "job": "Full Stack Developer",
+        "email": "alice.johnson@example.com",
+        "phone": "555-8765"
+    }
+]
