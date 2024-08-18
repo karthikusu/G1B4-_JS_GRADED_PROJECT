@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#error-message {
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+#resume-details {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+}
